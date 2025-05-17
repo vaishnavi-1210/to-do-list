@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to-do list</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <h1>Hey There! Start writing your tasks... 📝</h1>
+        <button id="enterBtn">Create my list</button>
+    </div>
+
+    <!-- Main App -->
+    <div id="main-app" style="display: none;">
+        <div>
+            <input type="text" id="myInput" placeholder="Write to add task.....">
+            <button id="button1">ADD TASK</button>
+        </div>
+        <div id="taskarea">
+            <ul id="tasks"></ul>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
